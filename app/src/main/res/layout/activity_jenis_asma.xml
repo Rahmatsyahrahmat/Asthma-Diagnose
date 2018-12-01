@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JenisAsmaActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/asma" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSolusi"
+                android:weightSum="10">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/asmaberat"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="ASMA BERAT"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSolusi"
+                android:weightSum="10">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/asmaberat"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="ASMA SEDANG"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSolusi"
+                android:weightSum="10">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/asmaberat"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="ASMA RINGAN"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSolusi"
+                android:weightSum="10">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/asmaberat"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="ASMA KARENA OLAHRAGA BERAT"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSolusi"
+                android:weightSum="10">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/asmaberat"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="ASMA KARENA TEMPAT KERJA"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSolusi"
+                android:weightSum="10">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/asmaberat"
+                    android:scaleType="centerCrop" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="ASMA KARENA SUHU DINGIN"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
